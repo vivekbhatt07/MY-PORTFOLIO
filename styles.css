@@ -53,6 +53,7 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 12px;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 ul {
@@ -131,4 +132,22 @@ footer {
 footer ul li {
   color: #fff;
   text-transform: capitalize;
+}
+
+.light-container {
+  background-color: #fff;
+}
+
+.dark-container {
+  background-color: #e5e5e5;
+}
+
+.light-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-btn {
+  background-color: #fca5a5;
+  color: #fff;
 }
