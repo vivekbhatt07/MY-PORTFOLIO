@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
+:root {
+  --primary-color: #737373;
+  --secondary-color: #fca5a5;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -144,10 +149,34 @@ footer ul li {
 
 .light-btn {
   background-color: #fff;
-  color: #000;
+  color: #fca5a5;
+  border: 1px solid #fca5a5;
 }
 
 .dark-btn {
   background-color: #fca5a5;
   color: #fff;
+}
+
+.active {
+  font-weight: 800;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+ol li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+ol li p {
+  text-align: center;
 }
