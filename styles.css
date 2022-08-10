@@ -43,10 +43,13 @@ a {
   color: #fff;
 }
 
-a:hover {
+/* a:hover {
   color: #fca5a5;
-}
+} */
 
+.white {
+  color: #fff;
+}
 p {
   margin: 0;
   padding: 0;
@@ -111,7 +114,6 @@ main {
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 section {
@@ -165,10 +167,8 @@ footer ul li {
 ol {
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
 }
+
 ol li {
   display: flex;
   flex-direction: column;
@@ -179,4 +179,50 @@ ol li {
 
 ol li p {
   text-align: center;
+}
+
+/* PROJECT */
+.container_projects {
+  align-items: center;
+  gap: 40px;
+}
+
+.container_projects_head {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.container_projects_list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.container_projects_list_item {
+  padding: 16px;
+}
+
+.container_projects_list_item:nth-child(odd) {
+  background-color: #d4d4d4;
+}
+
+.container_projects_list_item_head {
+  text-transform: capitalize;
+}
+
+.container_projects_list_item_date {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.container_projects_list_item_subtitle {
+  font-size: 14px;
+}
+.container_projects_list_item_links {
+  display: flex;
+  gap: 20px;
+}
+
+.container_projects_list_item_links_btn {
+  padding: 6px 10px;
 }
