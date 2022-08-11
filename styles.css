@@ -68,12 +68,24 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  gap: 16px;
+}
+
+/* UTILITY */
+.flex-row-center {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
+
+.flex-col-center {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* ********************************************* */
 
 ul li:first-child {
   flex-basis: 100%;
@@ -240,6 +252,8 @@ ol li p {
   width: 40%;
   height: 40%;
 }
+
+/* ***************** */
 
 /* Blog */
 .container_blog {
