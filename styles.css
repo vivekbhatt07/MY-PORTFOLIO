@@ -240,3 +240,45 @@ ol li p {
   width: 40%;
   height: 40%;
 }
+
+/* Blog */
+.container_blog {
+  align-items: center;
+  gap: 40px;
+}
+
+.container_blog_head {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.container_blog_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container_blog_item {
+  padding: 16px;
+}
+
+.container_blog_item:nth-child(odd) {
+  background-color: #d4d4d4;
+}
+
+.container_blog_item_title {
+  text-transform: capitalize;
+}
+
+.container_blog_item_date {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.container_blog_item_subtitle {
+  font-size: 14px;
+}
+
+.blog_btn {
+  padding: 6px 10px;
+}
