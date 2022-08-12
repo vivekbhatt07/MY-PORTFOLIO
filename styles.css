@@ -95,10 +95,18 @@ ul {
 
 .light-container {
   background-color: #fff;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  min-height: 100px;
 }
 
 .dark-container {
   background-color: #e5e5e5;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  border-radius: 1rem;
+  min-height: 160px;
 }
 
 .active {
@@ -140,6 +148,7 @@ ul {
 .text-left {
   text-align: left;
 }
+
 /* ********************************************* */
 
 ul li:first-child {
@@ -179,10 +188,10 @@ main {
 }
 
 section {
-  padding: 2rem 1rem;
-  background-color: #e5e5e5;
-  gap: 1rem;
-  border-radius: 1rem;
+  /* padding: 2rem 1rem; */
+  /* background-color: #e5e5e5; */
+  /* gap: 1rem; */
+  /* border-radius: 1rem; */
 }
 
 section p {
