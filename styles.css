@@ -113,6 +113,11 @@ ul {
   font-weight: 800;
 }
 
+.text-extra-small {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+
 .text-small {
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
