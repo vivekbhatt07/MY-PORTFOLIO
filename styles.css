@@ -80,7 +80,7 @@ ul {
   color: #fca5a5;
   border: 1px solid #fca5a5;
   text-transform: capitalize;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.8rem;
   border-radius: 12px;
 }
 
@@ -89,7 +89,7 @@ ul {
   color: #fff;
   border: none;
   text-transform: capitalize;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.8rem;
   border-radius: 12px;
 }
 
@@ -131,6 +131,11 @@ ul {
 .text-large {
   font-size: 1.25rem; /* 20px */
   line-height: 1.75rem; /* 28px */
+}
+
+.text-extra-large {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
 }
 
 .gap-1 {
@@ -185,13 +190,6 @@ main {
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
-}
-
-section {
-  /* padding: 2rem 1rem; */
-  /* background-color: #e5e5e5; */
-  /* gap: 1rem; */
-  /* border-radius: 1rem; */
 }
 
 section p {
