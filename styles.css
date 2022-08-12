@@ -132,6 +132,14 @@ ul {
 .white {
   color: #fff;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
 /* ********************************************* */
 
 ul li:first-child {
