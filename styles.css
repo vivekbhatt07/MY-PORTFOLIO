@@ -316,3 +316,13 @@ ol li p {
 .blog_btn {
   padding: 6px 10px;
 }
+
+.container_projects_img {
+  width: 30%;
+  height: 30%;
+}
+
+.container_blog_img {
+  width: 40%;
+  height: 40%;
+}
