@@ -186,8 +186,8 @@ header {
 }
 
 .header__intro span {
-  color: #fca5a5;
   text-transform: capitalize;
+  color: var(--secondary-color);
 }
 
 main {
