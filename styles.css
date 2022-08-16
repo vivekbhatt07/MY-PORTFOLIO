@@ -368,7 +368,7 @@ ol li p {
 }
 
 .card {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
   min-width: 200px;
   min-height: 250px;
   border-radius: 8px;
@@ -388,10 +388,12 @@ ol li p {
 .card_head {
   display: flex;
   justify-content: center;
+  color: #fff;
 }
 
 .card-items {
   display: flex;
   justify-content: center;
   gap: 20px;
+  color: #fff;
 }
