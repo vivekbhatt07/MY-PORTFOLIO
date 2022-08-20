@@ -169,6 +169,9 @@ ul {
 .text-left {
   text-align: left;
 }
+.block {
+  display: block;
+}
 
 /* ********************************************* */
 
