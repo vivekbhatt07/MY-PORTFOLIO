@@ -101,6 +101,7 @@ ul {
 .light-btn:hover {
   background-color: #fca5a5;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .dark-btn {
@@ -110,16 +111,12 @@ ul {
   text-transform: capitalize;
   padding: 0.3rem 0.8rem;
   border-radius: 6px;
-  transition: background 0.7s ease-in;
-  border: 1px solid #fff;
-  font-size: 0.75rem; /* 12px */
-  line-height: 1rem; /* 16px */
+  transition: border 0.5s ease-in;
+  border: 1px solid #fca5a5;
 }
 
 .dark-btn:hover {
-  background-color: #fff;
-  color: #fca5a5;
-  border: 1px solid #fca5a5;
+  border: 1px solid #fff;
 }
 
 .light-container {
@@ -128,8 +125,6 @@ ul {
   gap: 1rem;
   border-radius: 1rem;
   min-height: 100px;
-  font-size: 0.75rem; /* 12px */
-  line-height: 1rem; /* 16px */
 }
 
 .dark-container {
