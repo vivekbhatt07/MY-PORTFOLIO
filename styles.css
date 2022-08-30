@@ -235,6 +235,7 @@ header {
 .header__intro span {
   text-transform: capitalize;
   color: var(--secondary-color);
+  text-shadow: 0.5px 0.5px 1.5px #000;
 }
 
 main {
@@ -433,6 +434,7 @@ ol li p {
 .Bio_title h1 {
   font-weight: 800;
   color: var(--secondary-color);
+  text-shadow: 1px 1px 2px #000;
 }
 
 .bio_technology {
