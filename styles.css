@@ -36,6 +36,8 @@ h6 {
 }
 
 nav {
+  /* position: sticky;
+  top: 0px; */
   background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.15) 0%,
@@ -96,6 +98,8 @@ ul {
   padding: 0.3rem 0.8rem;
   border-radius: 6px;
   transition: background 0.7s ease-in;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
 }
 
 .light-btn:hover {
@@ -113,6 +117,8 @@ ul {
   border-radius: 6px;
   transition: border 0.5s ease-in;
   border: 1px solid #fca5a5;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
 }
 
 .dark-btn:hover {
@@ -125,6 +131,8 @@ ul {
   gap: 1rem;
   border-radius: 1rem;
   min-height: 100px;
+  border-top: 5px solid var(--secondary-color);
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 .dark-container {
@@ -137,6 +145,7 @@ ul {
 
 .active {
   font-weight: 800;
+  color: var(--secondary-color);
 }
 
 .text-extra-small {
@@ -248,6 +257,7 @@ footer ul li {
 ol {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 ol li {
@@ -267,6 +277,7 @@ ol li p {
 .container_projects_head {
   font-size: 32px;
   font-weight: 800;
+  color: var(--primary-color);
 }
 
 .container_projects_list {
@@ -280,7 +291,7 @@ ol li p {
 }
 
 .container_projects_list_item:nth-child(odd) {
-  background-color: #d4d4d4;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .container_projects_list_item_head {
@@ -294,6 +305,7 @@ ol li p {
 
 .container_projects_list_item_subtitle {
   font-size: 14px;
+  max-width: 630px;
 }
 .container_projects_list_item_links {
   display: flex;
@@ -318,6 +330,7 @@ ol li p {
 .container_blog_head {
   font-size: 32px;
   font-weight: 800;
+  color: var(--primary-color);
 }
 
 .container_blog_list {
@@ -331,7 +344,7 @@ ol li p {
 }
 
 .container_blog_item:nth-child(odd) {
-  background-color: #d4d4d4;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .container_blog_item_title {
@@ -357,8 +370,9 @@ ol li p {
 }
 
 .container_blog_img {
-  width: 40%;
-  height: 40%;
+  width: 35%;
+  height: 35%;
+  padding-left: 44px;
 }
 
 /* ABOUT */
@@ -447,6 +461,3 @@ ol li p {
 .card_media {
   width: 60%;
 }
-
-/* .card_text {
-} */
