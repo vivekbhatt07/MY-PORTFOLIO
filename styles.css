@@ -25,7 +25,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #000; */
+  background-color: #000;
 }
 
 h1,
@@ -295,7 +295,7 @@ ol li p {
 .projectHead {
   font-size: 32px;
   font-weight: 800;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .projectList {
@@ -307,11 +307,11 @@ ol li p {
 .projectCardItem {
   display: flex;
   padding: 16px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 16px;
   transition-property: transform;
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
+  background: #fff;
 }
 
 .projectCardItem:hover {
@@ -320,7 +320,7 @@ ol li p {
 
 .projectCardImg {
   max-width: 200px;
-  max-height: 150px;
+  max-height: 140px;
 }
 .projectCardImg img {
   width: 100%;
