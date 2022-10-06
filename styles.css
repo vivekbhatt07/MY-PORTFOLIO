@@ -312,6 +312,7 @@ ol li p {
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
   background: #fff;
+  gap: 16px;
 }
 
 .projectCardItem:hover {
