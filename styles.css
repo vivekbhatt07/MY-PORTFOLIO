@@ -307,16 +307,25 @@ ol li p {
 .projectCardItem {
   display: flex;
   padding: 16px;
-  border-radius: 16px;
+  /* border-radius: 8px; */
   transition-property: transform;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   transition-timing-function: ease-in;
   background: #fff;
   gap: 16px;
+  border-width: 5px;
+  border-style: solid;
+  border-image-source: linear-gradient(
+    238.56deg,
+    var(--dark-secondary) 0%,
+    rgba(0, 128, 128, 0) 44.31%
+  );
+  border-image-slice: 1;
+  border-image-repeat: stretch;
 }
 
 .projectCardItem:hover {
-  transform: scale(1.04);
+  transform: scale(1.015);
 }
 
 .projectCardImg {
